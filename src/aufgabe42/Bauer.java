@@ -1,9 +1,5 @@
 package aufgabe42;
 
-/**
- * Repräsentiert einen Bauern, der sich am Anfang zwei Felder und danach ein Feld nach vorne bewegen kann.
- * En passant wird unterstützt.
- */
 public class Bauer extends Figur {
 
     // Öffentlicher Konstruktor
