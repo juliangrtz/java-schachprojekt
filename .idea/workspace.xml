@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="abee85eb-ebb2-4246-9231-4f37ea118aa5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aufgabe42/Bauer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aufgabe42/Bauer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aufgabe42/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aufgabe42/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +45,13 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Julian/Desktop/Studium/Nachhilfe/EidP (Java)/einfuehrung_in_die_programmierung_loesungen/src/arrays",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -142,6 +143,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -160,7 +168,8 @@
       <workItem from="1702811242213" duration="13759000" />
       <workItem from="1702838679902" duration="747000" />
       <workItem from="1702917763599" duration="6258000" />
-      <workItem from="1702924248580" duration="2757000" />
+      <workItem from="1702924248580" duration="2851000" />
+      <workItem from="1702927198623" duration="293000" />
     </task>
     <servers />
   </component>

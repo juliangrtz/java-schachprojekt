@@ -73,20 +73,21 @@ public class Main {
 
         // Sonderfälle
         SPIELFELD = new Figur[][]{
-                {null, null, null, null, null, null, null, null},
+                {new Bauer(0,0, false), null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null, new Bauer(4, 7, false)},
                 {new Figur(5,0, false), null, null, null, null, null, null, null},
                 {new Bauer(6, 0, false), null, null, null, null, null, null, new Bauer(6, 7, false)},
-                {null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, new Bauer(7,7, true)},
         };
 
         System.out.println("Testsuite 3: Sonderfälle");
         assertFalse("Bauer überspringt Figur beim Doppelzug", SPIELFELD[6][0].checkMove(4, 0));
         assertFalse("Bauer versucht Doppelzug auf besetztes Feld", SPIELFELD[6][7].checkMove(4, 7));
-
+        assertFalse("Weißer Bauer versucht Schachbrett zu verlassen", SPIELFELD[0][0].checkMove(-1, 0));
+        assertFalse("Schwarzer Bauer versucht Schachbrett zu verlassen", SPIELFELD[7][7].checkMove(8, 7));
     }
 
     private static void assertTrue(String title, boolean predicate) throws Exception {
