@@ -44,7 +44,7 @@ public class Bauer extends Figur {
                 return true;
             } else if (Math.abs(deltaX) == 2) {
                 // Prüfen, ob Figur dazwischen steht
-                int middleX = isBlack() ? getX() - 1 : getX() + 1;
+                int middleX = isBlack() ? getX() + 1 : getX() - 1;
                 return isAtStartPosition() && Main.SPIELFELD[middleX][y] == null;
             } else {
                 return false;
