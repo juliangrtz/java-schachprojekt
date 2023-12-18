@@ -24,8 +24,6 @@ public class Bauer extends Figur {
         }
     }
 
-
-
     /**
      * Überprüft, ob der Bauer auf die angegebene Position ziehen kann.
      * Der Bauer kann vorwärts auf ein leeres Feld ziehen.
@@ -52,6 +50,7 @@ public class Bauer extends Figur {
             if (Math.abs(deltaX) == 1) {
                 return true;
             } else if (Math.abs(deltaX) == 2) {
+                // TODO: Prüfen, ob Figur dazwischen steht!
                 return isAtStartPosition();
             } else {
                 return false;

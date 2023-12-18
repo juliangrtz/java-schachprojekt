@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abee85eb-ebb2-4246-9231-4f37ea118aa5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/einfuehrung_in_die_programmierung_loesungen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_intro/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/BoardIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/FigureCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aufgabe42/Bauer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aufgabe42/Bauer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aufgabe42/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aufgabe42/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +21,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -44,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Julian/Desktop/Studium/Nachhilfe/EidP (Java)/einfuehrung_in_die_programmierung_loesungen/src/arrays",
     "node.js.detected.package.eslint": "true",
@@ -121,7 +122,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aufgabe42.Main" />
-      <module name="einfuehrung_in_die_programmierung_loesungen" />
+      <module name="java-schachprojekt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="aufgabe42.*" />
@@ -160,6 +161,7 @@
       <workItem from="1702811242213" duration="13759000" />
       <workItem from="1702838679902" duration="747000" />
       <workItem from="1702917763599" duration="6258000" />
+      <workItem from="1702924248580" duration="500000" />
     </task>
     <servers />
   </component>
