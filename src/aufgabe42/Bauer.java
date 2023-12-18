@@ -28,10 +28,7 @@ public class Bauer extends Figur {
     @Override
     public boolean checkMove(int x, int y) {
         // Bewegen wir uns innerhalb des Spielfeldes?
-        if (x > 7 || x < 0) {
-            return false;
-        }
-        if (y > 7 || y < 0) {
+        if (x > 7 || x < 0 || y > 7 || y < 0) {
             return false;
         }
 
@@ -46,8 +43,9 @@ public class Bauer extends Figur {
             if (Math.abs(deltaX) == 1) {
                 return true;
             } else if (Math.abs(deltaX) == 2) {
-                // TODO: Prüfen, ob Figur dazwischen steht!
-                return isAtStartPosition();
+                // Prüfen, ob Figur dazwischen steht
+                int middleX = isBlack() ? getX() - 1 : getX() + 1;
+                return isAtStartPosition() && Main.SPIELFELD[middleX][y] == null;
             } else {
                 return false;
             }
@@ -55,7 +53,7 @@ public class Bauer extends Figur {
             if (isAllyPiece(x, y)) {
                 return false; // Versuch, verbündete Figur zu schlagen
             } else {
-                return Math.abs(getX() - x) == 1 && (Math.abs(getY() - y) == 1); // Diagonaler Schlag
+                return Math.abs(getX() - x) == 1 && Math.abs(getY() - y) == 1; // Diagonaler Schlag
             }
         } else {
             return false;
