@@ -35,7 +35,7 @@ class Figur {
     }
 	
 	// Diese Methode prüft, ob auf dem Feld (x,y) bereits eine verbündete Figur derselben Farbe steht.
-    public boolean isAllyPiece(int x, int y) {
+    public boolean alliedPieceExistsOnField(int x, int y) {
 		// Wenn das Feld, zu dem wir uns bewegen wollen, leer ist, dann steht dort keine verbündete Figur.
 		if (isEmptyField(x, y)) {
             return false;

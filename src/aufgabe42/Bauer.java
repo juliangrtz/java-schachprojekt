@@ -32,31 +32,29 @@ public class Bauer extends Figur {
             return false;
         }
 
-        if (Main.SPIELFELD[x][y] == null && y == getY()) { // Prüfung auf Vorwärtszug auf leeres Feld
-            int deltaX = x - getX(); // Schrittweite
+        int deltaX = x - getX(); // x-Schrittweite
+        int deltaY = y - getY(); // y-Schrittweite
 
+        if (Main.SPIELFELD[x][y] == null && y == getY()) { // Prüfung auf Vorwärtszug auf leeres Feld
             // Stimmt die Laufrichtung, d.h. wird sich nur vorwärts bewegt?
             if ((isBlack() && deltaX < 0) || (!isBlack() && deltaX > 0))
                 return false;
 
             // Stimmt die Schrittweite?
-            if (Math.abs(deltaX) == 1) {
+            int abs = Math.abs(deltaX);
+            if (abs == 1) {
                 return true;
-            } else if (Math.abs(deltaX) == 2) {
+            } else if (abs == 2) {
                 // Prüfen, ob Figur dazwischen steht
                 int middleX = isBlack() ? getX() + 1 : getX() - 1;
                 return isAtStartPosition() && Main.SPIELFELD[middleX][y] == null;
             } else {
                 return false;
             }
-        } else if (y != getY()) { // Diagonaler Schlag
-            if (isAllyPiece(x, y)) {
-                return false; // Versuch, verbündete Figur zu schlagen
-            } else {
-                return Math.abs(getX() - x) == 1 && Math.abs(getY() - y) == 1; // Diagonaler Schlag
-            }
-        } else {
-            return false;
+        } else if (Main.SPIELFELD[x][y] != null && Main.SPIELFELD[x][y].isBlack() != isBlack()) {
+            return Math.abs(deltaY) == 1 && (isBlack() ? deltaX == 1 : deltaX == -1);
         }
+
+        return false;
     }
 }

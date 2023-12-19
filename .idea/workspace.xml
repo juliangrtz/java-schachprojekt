@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="abee85eb-ebb2-4246-9231-4f37ea118aa5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aufgabe42/Bauer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aufgabe42/Bauer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aufgabe42/Figur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aufgabe42/Figur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aufgabe42/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aufgabe42/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -169,7 +172,8 @@
       <workItem from="1702838679902" duration="747000" />
       <workItem from="1702917763599" duration="6258000" />
       <workItem from="1702924248580" duration="2851000" />
-      <workItem from="1702927198623" duration="293000" />
+      <workItem from="1702927198623" duration="1001000" />
+      <workItem from="1702994393758" duration="4093000" />
     </task>
     <servers />
   </component>
