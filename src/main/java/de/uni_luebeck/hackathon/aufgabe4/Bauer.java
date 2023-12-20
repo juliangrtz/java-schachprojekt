@@ -12,8 +12,7 @@ public class Bauer extends Figur {
     }
 
     /**
-     * Überprüft, ob der Bauer sich auf seiner Startposition befindet.
-     * Die Startposition hängt von der Farbe des Bauern ab.
+     * Überprüft, ob der Bauer sich auf seiner Startposition befindet. Die Startposition hängt von der Farbe des Bauern ab.
      */
     private boolean isAtStartPosition() {
         if (isBlack()) { // Schwarze Figur
@@ -24,9 +23,7 @@ public class Bauer extends Figur {
     }
 
     /**
-     * Überprüft, ob der Bauer auf die angegebene Position ziehen kann.
-     * Der Bauer kann vorwärts auf ein leeres Feld ziehen.
-     * Speziell für den Bauern muss auch die Möglichkeit des Doppelschritts und En Passant berücksichtigt werden.
+     * Überprüft, ob der Bauer auf die angegebene Position (x,y) ziehen kann.
      */
     @Override
     public boolean checkMove(int x, int y) {
