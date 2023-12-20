@@ -1,4 +1,7 @@
-package aufgabe42;
+package de.uni_luebeck.hackathon.aufgabe4;
+
+
+import de.uni_luebeck.hackathon.Main;
 
 public class Bauer extends Figur {
 
